@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>CSS Basics</title>
+
+
     <style>
       h1 {
         color: hsla(240, 100%, 100%, .5);
+        border-style: solid;
+        border-width: 5px;
+        border-color: red;
       }
       p {
         color: blue;
@@ -22,6 +27,7 @@
         }
         a[href="https://www.youtube.com"]{
           background-color: red;
+          padding: 1rem;
         }
         a[href="https://www.google.com"]{
           background-color: lightgreen;
@@ -32,10 +38,24 @@
           font-weight: bold;
         }
 
+        p.important {
+            width: 75%;
+        }
+
+        img {
+          border-style: dashed;
+          border-color: orange;
+          border-width: 3px;
+          width: 25%
+        }
+
 
 
     </style>
   </head>
+
+
+
 
   <body>
     <h1>Welcome!</h1>
@@ -44,7 +64,7 @@
     <p id="lead-paragraph">The world is a happy and sensible place.</p>
     <a href="https://www.youtube.com">Youtube</a>
     <a href="https://www.google.com">Google</a>
-
+    <img src="https://live.staticflickr.com/4149/5077374515_c740c2f199_b.jpg" alt="Image of a color wheel.">
   </body>
 
 </html>
